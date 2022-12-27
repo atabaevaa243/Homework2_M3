@@ -9,9 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var techBlockView: UIView!
+    @IBOutlet weak var arsenalBlockView: UIView!
+    @IBOutlet weak var coordBlockView: UIView!
+    @IBOutlet weak var songsBlockView: UIView!
+    
+    @IBOutlet weak var userPhoto: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        userPhoto.layer.borderWidth = 2.0
+        userPhoto.layer.borderColor = UIColor.lightGray.cgColor
     }
 
 
